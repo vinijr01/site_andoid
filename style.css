@@ -1,0 +1,227 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    /*font-family: 'Android', sans-serif;*/
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0:rgb(168, 236, 168);
+    --cor1:rgb(108, 212, 108);
+    --cor2:rgb(14, 61, 14);
+    --cor3:rgb(21, 48, 21);
+    --cor4:rgb(39, 88, 39);
+}
+
+body {
+    background-color: var(--cor0);
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(var(--cor1), var(--cor2));
+    padding: 1px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    min-height: 230px;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px 0 25px 0;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
+}
+
+.frase-titulo {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.438);
+}
+
+.menu {
+    background-color: var(--cor2);
+    padding: 7px 0 15px 0;
+}
+
+
+.menu > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > a:hover {
+    background-color: var(--cor4);
+    border-radius: 4px;
+    transition-duration: 0.6s;
+}
+
+main {
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border-radius: 10px;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.total_imagem {
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.video_android {
+    background-color: var(--cor3);
+    padding: 30px 20px;
+}
+
+.titulo-01 {
+    font-family: 'Android', sans-serif;
+    font-size: 1.7em;
+    color: var(--cor4);
+    padding: 30px 0 0 20px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.frase-01 {
+    text-indent: 30px;
+    text-align: justify;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.texto-verde {
+    color: var(--cor4);
+    font-weight: 900;
+}
+
+.titulo-02 {
+    font-family: 'Android', sans-serif;
+    font-weight: 400;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, rgba(146, 240, 146, 0.637), rgba(159, 240, 159, 0));
+    padding: 1px 0 1px 20px;
+    margin: 0 0 0 20px;
+    font-size: 1.3em;
+}
+
+.frase-02 {
+    text-indent: 30px;
+    text-align: justify;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.frase-03 {
+    text-indent: 30px;
+    text-align: justify;
+    margin: 0;
+    padding: 15px 20px 0 20px;
+}
+
+.frase-03 > a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: 900;
+    background-color: var(--cor1);
+    padding: 3px;
+}
+
+.frase-03 > a:hover {
+    text-decoration: underline;
+}
+
+.frase-02 > a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: 900;
+    background-color: var(--cor1);
+    padding: 2px;
+}
+
+.frase-02 > a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+.extra_conteudo {
+    background-color: var(--cor0);
+    margin: 0 auto 0 auto;
+    padding: 10px;
+
+    border-radius: 0 0 7px 7px;
+
+    min-width: 320px;
+    max-width: 760px;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+.extra {
+    margin: 20px auto 0 auto;
+    border-radius: 7px 7px 0 0;
+    padding: 10px;
+
+    min-width: 320px;
+    max-width: 763px;
+
+    color: white;
+    background-color: var(--cor3);
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+.lista_container {
+    /*\2714 -> emoji de "check"; \00A0 -> espaço adicionado (no caso, foram dois espaços adicionados)*/
+    list-style-type: '\2714\00A0\00A0';
+
+    /*usando o "inside", a decoração da lista ficam dentro do aside*/
+    list-style-position: inside;
+
+    /*dividiu a lista em duas colunas*/
+    columns: 2;
+}
+
+footer {
+    margin: 15px 0 0 0;
+    text-align: center;
+    background-color: var(--cor3);
+    color: lightgray;
+    padding: 7px;
+}
+
+footer > span {
+    color: white;
+    font-weight: 700;
+}
+
+span > a {
+    text-decoration: none;
+    color: white;
+}
+
+span > a:hover {
+    text-decoration: underline;
+}
