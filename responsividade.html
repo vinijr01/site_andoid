@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        span {
+            font-weight: 700;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>Ideia de um Site Responsivo.</h1>
+        <p>Repare que as palavras escritas tendem a ficam responsivas por seguintes aspéctos: <span>"min-width"</span>, <span>"max-width"</span> e <span>"margin: auto;</span>". Mas, porque isso acontece? o motivo desse acontecimento é porque o <strong>min-width</strong> define uma largura mínima (que pode ser colocada como a menor largura, que seriam as telas de celulares antigos, <strong>320px</strong>) e o <strong>max-width</strong> define a largura máxima (sendo colocada uma largura que fica onfortável de ser ler. nessa visão de escrita, <strong>800px</strong> é o suficiente) e, por fim, o <strong>margim: auto;</strong> centraliza o box, para que a visão da leitura fique no centro da página</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Imagem de Iriana Blok, criadora do símbolo do android">
+        </picture>
+        <p>Se você for ver, a imagem também se adapta ao tamanho da tela, com a ideia de responsividade! A questão é: Porque isso acontece? E eu te digo! Isso acontece por causa do <span>width: 100%;</span>, pois a imagem tende a manter sempre sua proporção de 100%, que é ela por completo!</p>
+        <p>Mas, se você também percebeu, a imagem mudou, e sim, é verdade, a imagem sofreu uma mudança pois com a tag <strong>picture</strong>, é possível definir o tamanho mínimo ou máximo que a imagem ficará na tela, no caso, com menos de <strong>600px</strong>, a imagem se reduzirá a uma dela mesma, só que menor</p>
+    </main>
+</body>
+</html>
