@@ -1,5 +1,5 @@
 ## 🤖 Site Android - Site explicativo sobre o andoid
- Este projeto é uma interface de site sobre a história do Android até hoje. Contendo curiosidades, suas versões, etc.
+ Este projeto responsivo é uma interface de site sobre a história do Android até hoje. Contendo curiosidades, suas versões, etc.
 
 ## 💻 Tecnologias Utilizadas
 - HTML5
