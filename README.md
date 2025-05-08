@@ -1,14 +1,11 @@
-# site_andoid
- Site explicativo sobre a história do android
+## 🤖 Site Android - Site explicativo sobre o andoid
+ Este projeto é uma interface de site sobre a história do Android até hoje. Contendo curiosidades, suas versões, etc.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+## 💻 Tecnologias Utilizadas
+- HTML5
+- CSS3
+- VsCode
 
-<a href="https://vinijr01.github.io/site_andoid/site_10.html">Site Android</a>
-=======
- <a href="https://github.com/vinijr01/site_andoid/site_10.html">Site Android</a>
-=======
- <a href="https://vinijr01.github.io/site_andoid/site_10.html">Site Android</a>
->>>>>>> 8362b10ac8a51ad5955474ea2474dc75308447a4
- 
->>>>>>> dda6af8a8737750ceb51728c5384604747e0a1c8
+## 🧠 Sobre o Projeto
+ Acesse o projeto por esse link ao lado para maior análise -> https://vinijr01.github.io/site_andoid/site_10.html#
+
